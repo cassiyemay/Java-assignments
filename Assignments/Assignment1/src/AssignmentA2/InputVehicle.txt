@@ -1,0 +1,6 @@
+1 0 50 2 George 
+1 2 50 2 John 
+1 2 50 3 Jane 
+2 1 50 60 George 
+2 2 50 60 John 
+2 4 60 60 Jane 

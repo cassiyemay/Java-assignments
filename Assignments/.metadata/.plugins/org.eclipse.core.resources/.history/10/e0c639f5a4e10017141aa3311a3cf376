@@ -1,0 +1,17 @@
+package ch10;
+import java.util.Scanner;
+
+public class test {
+	public static void main(String[] args){
+	int millennium = 3000;
+	Scanner in = new Scanner(System.in);
+	System.out.println("please enter the current year:");
+	 int year = in.nextInt();
+	 int nyear = year;
+	 
+	 while(nyear != millennium)
+		 nyear++;
+	 
+	 System.out.println("Another" + (nyear-year) + "years to millennium");
+}
+}
